@@ -1,0 +1,18 @@
+title: Doozo
+description: Doozo の紹介ページと、プライバシーポリシー・利用規約
+# アプリと App Store Connect が指す URL。配布したアプリの中に入るので、変えると
+# 開けなくなる。各文書の permalink はファイルパスから導かず、固定で書く。
+#
+# 独自ドメイン（CNAME）にしているのは、リポジトリ名を変えても URL が変わらない
+# ようにするため。GitHub はプロジェクトサイトの URL をリダイレクトしない（veiler の教訓）。
+baseurl: ""
+url: https://doozo.kyatatata.com
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: document
+exclude:
+  - README.md
+plugins:
+  - jekyll-sitemap
