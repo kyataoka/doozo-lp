@@ -32,6 +32,31 @@ translations of it.*
 | `index.html`, `en/index.html` | 紹介ページ。レイアウトは `_layouts/landing.html` |
 | `privacy/*.md`, `terms/*.md` | 法務文書。レイアウトは `_layouts/document.html` |
 | `app-ads.txt` | AdMob のパブリッシャーの宣言（veiler と同じ 1 行） |
-| `assets/` | アイコン、スクリーンショット（公開前に用意する） |
+| `assets/icon.png` | アイコン（`design/icon/AppIcon.icon` から ictool で書き出し） |
+| `assets/shots/` | 画面写真。`ja/`・`en/` は言語で変わる画面、直下は言語に依らない手渡し画面。明るい・暗いの両方を置き、テーマに合わせて片方を出す |
+| `_includes/soon-badge.html` | 「App Storeで近日公開」の表示。公開したら App Store のバッジに差し替える |
 
 レイアウトは veiler-lp のものを写しています。
+
+## 画面写真の中の写真
+
+シミュレータで撮った画面写真に写っている写真は、Unsplash の写真です（Unsplash License。帰属表示は不要ですが、サイトの下部に出典を書いています）。
+
+| 写真 | 撮影者 |
+| --- | --- |
+| <https://unsplash.com/photos/agkblvPff5U> | Linh Nguyen |
+| <https://unsplash.com/photos/_WiFMBRT7Aw> | Jerry Adney |
+| <https://unsplash.com/photos/gkT4FfgHO5o> | Paul Jarvis |
+| <https://unsplash.com/photos/D76DklsG-5U> | Kenneth Thewissen |
+| <https://unsplash.com/photos/hlnucYOsL-c> | Matteo Minelli |
+| <https://unsplash.com/photos/Ven2CV8IJ5A> | Paul Jarvis |
+| <https://unsplash.com/photos/8wTPqxlnKM4> | André Spieker |
+| <https://unsplash.com/photos/UWRqlJcDCXA> | Carli Jean |
+| <https://unsplash.com/photos/FjjUVn_KHLU> | Glen Carrie |
+| <https://unsplash.com/photos/-vq7mi4oF0s> | Rula Sibai |
+| <https://unsplash.com/photos/OxzhYtL-00Y> | Alexander Shustov |
+| <https://unsplash.com/photos/n7n-nkadHRM> | Chris Brignola |
+| <https://unsplash.com/photos/0fjGQmYCRW8> | Austin Ban |
+| <https://unsplash.com/photos/V0yAek6BgGk> | Go Wild |
+| <https://unsplash.com/photos/NYDo21ssGao> | Paul Jarvis |
+| <https://unsplash.com/photos/yNGQ830uFB4> | Tim de Groot |

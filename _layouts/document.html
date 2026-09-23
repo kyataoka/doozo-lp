@@ -5,23 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }} — Doozo</title>
 <meta name="description" content="{{ page.title }} — Doozo">
+<link rel="icon" href="{{ '/assets/icon.png' | relative_url }}">
 <style>
   /* No external resources: these pages are read by App Review and by people
      on a phone, and both should get the whole document from one request. */
   :root {
-    --bg: #ffffff;
-    --fg: #1c1c1e;
-    --muted: #6b6b70;
-    --rule: #e3e3e6;
-    --link: #3f4ec4;
+    --bg: #f3efe9;
+    --fg: #1b1814;
+    --muted: #6d665d;
+    --rule: #e1dad0;
+    --link: #1a6fd1;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #101013;
-      --fg: #e9e9ec;
-      --muted: #9a9aa1;
-      --rule: #2a2a30;
-      --link: #9aa5f2;
+      --bg: #151210;
+      --fg: #f1ece5;
+      --muted: #a39a8f;
+      --rule: #342e28;
+      --link: #6cb0ff;
     }
   }
   * { box-sizing: border-box; }
