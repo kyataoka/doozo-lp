@@ -46,7 +46,7 @@ On the free plan, the App shows ads using the Google AdMob SDK (Google LLC). To 
 - Approximate location estimated from your IP address (country or region level)
 - Device information (device type, OS version, etc.), ad impressions and taps, and diagnostic information about the ad SDK
 
-The App does not ask for tracking permission and does not use the advertising identifier (IDFA). It requests non-personalized ads. In the European Economic Area, the United Kingdom, and similar regions, only limited ads are served, because the App uses no consent management tool.
+The App does not ask for tracking permission and does not use the advertising identifier (IDFA). It requests non-personalized ads. In the European Economic Area and the United Kingdom, only limited ads are served, because the App uses no consent management tool.
 
 **The ad SDK never reads your photos, videos, or history.** We receive only aggregate figures such as impressions and revenue. With a paid plan (No Ads or Doozo Plus), the ad SDK is not initialized and no information is sent for ads.
 
@@ -56,7 +56,7 @@ Google handles this information under its Privacy Policy (https://policies.googl
 
 The App records which features are used (for example, starting a handoff or opening the plans screen), using only predefined event names and values. It sends them with Google Analytics for Firebase (Google LLC).
 
-Photos, videos, history names, counts, and dates are never sent. No signals for advertising are sent, and the data is not linked to anything that identifies you or to advertising identifiers. You can turn this off at any time in the App’s Settings (Privacy → Share Usage Data). The App uses no crash reporting service.
+Photos, videos, history names, counts, and dates are never sent. No signals for advertising are sent, and the data is not linked to anything that identifies you or to advertising identifiers. You can turn this off at any time in the App’s Settings (Privacy → Share Usage Data). The App uses no crash reporting service, and does not sync your history or photos with iCloud or any other cloud service.
 
 ### 2.5 Feedback and questions
 
