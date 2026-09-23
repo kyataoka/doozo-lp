@@ -230,7 +230,7 @@
   /* ---- plan comparison --------------------------------------------------- */
   .cmp-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .cmp {
-    border-collapse: collapse; width: 100%; min-width: 27rem;
+    border-collapse: collapse; width: 100%;
     font-size: .88rem;
   }
   .cmp th, .cmp td {
@@ -256,6 +256,13 @@
   /* Plan columns are as wide as their widest word; the name column takes
      what is left rather than the other way round. */
   .cmp thead th:not(:first-child) { width: 5.4rem; }
+  /* On a phone the table has to fit without scrolling sideways: a hidden
+     Plus column is the one a reader most needs to see. */
+  @media (max-width: 480px) {
+    .cmp { font-size: .8rem; }
+    .cmp th, .cmp td { padding: .55rem .3rem; }
+    .cmp thead th:not(:first-child) { width: 3.9rem; }
+  }
   .cmp tr.row { cursor: pointer; }
   /* No rule between a row and its own description — they are one thing. The
      line under the description separates it from the next row instead. */
@@ -379,7 +386,7 @@
     {% if page.lang == 'en' %}
       <a href="{{ '/privacy/en/' | relative_url }}">Privacy Policy</a>
       <span>·</span>
-      <a href="{{ '/terms/en/' | relative_url }}">Terms of Service</a>
+      <a href="{{ '/terms/en/' | relative_url }}">Terms of Use</a>
     {% else %}
       <a href="{{ '/privacy/ja/' | relative_url }}">プライバシーポリシー</a>
       <span>・</span>
