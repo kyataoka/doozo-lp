@@ -11,7 +11,7 @@ alt_label: 日本語
 *This is a translation of the Japanese Privacy Policy. If the two differ, the Japanese version prevails.*
 
 **Established: September 23, 2026**
-**Last updated: September 23, 2026**
+**Last updated: September 25, 2026**
 
 This Privacy Policy ("this Policy") describes how Hiroki Kataoka ("we") handles information in the iOS app "Doozo" ("the App"). Please read this Policy before using the App.
 
@@ -45,8 +45,9 @@ On the free plan, the App shows ads using the Google AdMob SDK (Google LLC). To 
 
 - Approximate location estimated from your IP address (country or region level)
 - Device information (device type, OS version, etc.), ad impressions and taps, and diagnostic information about the ad SDK
+- The advertising identifier (IDFA), only if you allow tracking when iOS asks
 
-The App does not ask for tracking permission and does not use the advertising identifier (IDFA). It requests non-personalized ads. In the European Economic Area and the United Kingdom, only limited ads are served, because the App uses no consent management tool.
+On the free plan, the App asks once for iOS tracking permission, before the first ad is shown. Only if you allow it is the advertising identifier (IDFA) sent to Google, where it is used to show ads matched to your interests (personalized ads) and to measure them. If you don’t allow it, the identifier is not sent and the App requests non-personalized ads. Every feature of the App works the same either way. In the European Economic Area and the United Kingdom, only limited ads are served whatever you choose, because the App uses no consent management tool.
 
 **The ad SDK never reads your photos, videos, or history.** We receive only aggregate figures such as impressions and revenue. With a paid plan (No Ads or Doozo Plus), the ad SDK is not initialized and no information is sent for ads.
 
@@ -97,6 +98,7 @@ Their servers may be located outside Japan.
 - Deleting history (Doozo Plus): delete it item by item in the App, or all at once with "Delete All History" in Settings.
 - Usage data: turn off "Share Usage Data" in Settings at any time.
 - Ads: with a paid plan (No Ads or Doozo Plus), no ads are shown and the ad SDK is not initialized.
+- Tracking permission: change it at any time in the iPhone Settings app under Privacy & Security → Tracking.
 
 ## 7. Biometrics (Face ID, etc.)
 
