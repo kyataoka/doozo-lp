@@ -34,7 +34,7 @@ translations of it.*
 | `app-ads.txt` | AdMob のパブリッシャーの宣言（veiler と同じ 1 行） |
 | `assets/icon.png` | アイコン（`design/icon/AppIcon.icon` から ictool で書き出し） |
 | `assets/shots/` | 画面写真。`ja/`・`en/` は言語で変わる画面、直下は言語に依らない手渡し画面。明るい・暗いの両方を置き、テーマに合わせて片方を出す |
-| `_includes/soon-badge.html` | 「App Storeで近日公開」の表示。公開したら App Store のバッジに差し替える |
+| `_includes/appstore-badge.html` | App Store のバッジとリンク（2026-09-28 に公開したので「近日公開」から差し替えた）。バッジは Apple の公式のもの（`assets/appstore-badge*.svg`、veiler-lp と同じ） |
 
 レイアウトは veiler-lp のものを写しています。
 
