@@ -11,11 +11,11 @@ alt_label: 日本語
 *This is a translation of the Japanese Privacy Policy. If the two differ, the Japanese version prevails.*
 
 **Established: September 23, 2026**
-**Last updated: September 25, 2026**
+**Last updated: October 1, 2026**
 
 This Privacy Policy ("this Policy") describes how Hiroki Kataoka ("we") handles information in the iOS app "Doozo" ("the App"). Please read this Policy before using the App.
 
-The App shows only the photos and videos you choose, so that someone you hand your iPhone to cannot move on to photos you did not choose. The App requires no account, and we operate no server that holds your photos or history. On the free plan, the App shows ads (see 2.3).
+The App shows only the photos and videos you choose, so that someone you hand your iPhone or iPad to cannot move on to photos you did not choose. The App requires no account, and we operate no server that holds your photos or history. On the free plan, the App shows ads (see 2.3).
 
 ## 1. Who We Are
 
@@ -47,7 +47,7 @@ On the free plan, the App shows ads using the Google AdMob SDK (Google LLC). To 
 - Device information (device type, OS version, etc.), ad impressions and taps, and diagnostic information about the ad SDK
 - The advertising identifier (IDFA), only if you allow tracking when iOS asks
 
-On the free plan, the App asks once for iOS tracking permission, before the first ad is shown. Only if you allow it is the advertising identifier (IDFA) sent to Google, where it is used to show ads matched to your interests (personalized ads) and to measure them. If you don’t allow it, the identifier is not sent and the App requests non-personalized ads. Every feature of the App works the same either way. In the European Economic Area and the United Kingdom, only limited ads are served whatever you choose, because the App uses no consent management tool.
+On the free plan, the App asks once for iOS tracking permission, before the first ad is shown. Only if you allow it is the advertising identifier (IDFA) sent to Google, where it is used to show ads matched to your interests (personalized ads) and to measure them. If you don’t allow it, the identifier is not sent and the App requests non-personalized ads. Every feature of the App works the same either way. In the European Economic Area, the United Kingdom and Switzerland, before asking for tracking permission, the App uses Google’s consent management tool (User Messaging Platform) to ask for your consent to the use of information for ads. Your choices are stored on your device and applied to Google’s ad SDK and to the usage data in 2.4 (if you don’t consent to storing and accessing information on your device, usage data is not stored). Every feature of the App works the same whether or not you consent.
 
 **The ad SDK never reads your photos, videos, or history.** We receive only aggregate figures such as impressions and revenue. With a paid plan (No Ads or Doozo Plus), the ad SDK is not initialized and no information is sent for ads.
 
@@ -98,7 +98,8 @@ Their servers may be located outside Japan.
 - Deleting history (Doozo Plus): delete it item by item in the App, or all at once with "Delete All History" in Settings.
 - Usage data: turn off "Share Usage Data" in Settings at any time.
 - Ads: with a paid plan (No Ads or Doozo Plus), no ads are shown and the ad SDK is not initialized.
-- Tracking permission: change it at any time in the iPhone Settings app under Privacy & Security → Tracking.
+- Tracking permission: change it at any time in the Settings app on your device under Privacy & Security → Tracking.
+- Ad consent (EEA, UK and Switzerland): change it at any time with "Change Ad Consent" under Privacy in the App’s Settings.
 
 ## 7. Biometrics (Face ID, etc.)
 

@@ -11,7 +11,7 @@ alt_label: 日本語
 *This is a translation of the Japanese Terms of Use. If the two differ, the Japanese version prevails.*
 
 **Established: September 23, 2026**
-**Last updated: September 23, 2026**
+**Last updated: October 1, 2026**
 
 These Terms of Use ("these Terms") set out the conditions for using the iOS app "Doozo" ("the App") provided by Hiroki Kataoka ("we"). By using the App, you agree to these Terms.
 
@@ -23,14 +23,14 @@ These Terms of Use ("these Terms") set out the conditions for using the iOS app 
 
 ## 2. About the App
 
-The App shows only the photos and videos you choose, so that someone you hand your iPhone to cannot move on to photos you did not choose within the App. With the paid plan Doozo Plus, each set you showed is saved on your device as "history" so you can show it again. We operate no server that holds your photos or history.
+The App shows only the photos and videos you choose, so that someone you hand your iPhone or iPad to cannot move on to photos you did not choose within the App. With the paid plan Doozo Plus, each set you showed is saved on your device as "history" so you can show it again. We operate no server that holds your photos or history.
 
 On the free plan, the App shows ads.
 
 ## 3. Fees and Subscriptions (Auto-Renewing)
 
 1. In addition to free features, the App offers these paid plans:
-   - **Doozo Plus**: adds the Face ID lock, no ads, no limit on photos at once, videos, saved history, names and pins for history, showing photos one by one, and receiving photos and videos from other apps’ share sheets. Available as **monthly or yearly auto-renewing subscriptions** or a **one-time lifetime purchase (Plus Lifetime)**.
+   - **Doozo Plus**: adds the Face ID or Touch ID lock, no ads, no limit on photos at once, videos, saved history, names and pins for history, showing photos one by one, and receiving photos and videos from other apps’ share sheets. Available as **monthly or yearly auto-renewing subscriptions** or a **one-time lifetime purchase (Plus Lifetime)**.
    - **No Ads**: a **monthly auto-renewing subscription** that removes ads and raises the number of photos you can choose at once above the free plan. Other limits, such as videos and history, are the same as the free plan.
    - The features and photo limits of each plan are as shown on the plans screen in the App.
 2. All plans are provided through **Apple’s In-App Purchase**, at the prices shown on the App Store. **The lifetime purchase does not renew** and has no end date.
@@ -54,7 +54,7 @@ When using the App, you must not:
 
 ## 5. Disclaimers
 
-1. **What the App cannot prevent (important)**: the App keeps people from moving on to photos you did not choose within the App. **It does not prevent notifications, going to the Home Screen or other apps, screenshots, or photos taken with another device.** When handing over your iPhone, use iOS Guided Access if needed. Except in cases of our willful misconduct or gross negligence, we are not liable for any resulting damage to you or others.
+1. **What the App cannot prevent (important)**: the App keeps people from moving on to photos you did not choose within the App. **It does not prevent notifications, going to the Home Screen or other apps, opening other apps alongside it on iPad, screenshots, or photos taken with another device.** When handing over your iPhone, use iOS Guided Access if needed. Except in cases of our willful misconduct or gross negligence, we are not liable for any resulting damage to you or others.
 2. **The lock**: the lock in Doozo Plus relies on your device’s biometrics and passcode, and may be unavailable depending on your device’s settings or state.
 3. **Data loss**: history and photos or videos copied into the App are stored only on your device. They may be lost if your device fails or is erased, if you delete the App, when Doozo Plus ends (3.8), or under the auto-delete setting. The App never deletes original photos in the Photos app.
 4. **No warranty**: the App is provided as is. We do not warrant that it fits a particular purpose or always works without interruption or errors.
