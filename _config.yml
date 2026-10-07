@@ -7,6 +7,11 @@ description: Doozo の紹介ページと、プライバシーポリシー・利�
 # ようにするため。GitHub はプロジェクトサイトの URL をリダイレクトしない（veiler の教訓）。
 baseurl: ""
 url: https://doozo.kyatatata.com
+# Google Search Console の所有権の確認（URL プレフィックスのプロパティ）。紹介ページの <head> に
+# meta タグで出す。Google はときどき確かめ直すので、確認が済んだ後も消さない。
+# ファイル（googleXXXX.html）で置かないのは、jekyll-sitemap がサイトマップに載せてしまい、
+# 外そうとして front matter を付けると既定のレイアウトで包まれて中身が変わるため（2026-10-07）
+google_site_verification: S8DktsSrrwo0ZpyBf9Jwq9-Flb-616fW8zP7E1csIL4
 defaults:
   - scope:
       path: ""

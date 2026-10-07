@@ -32,6 +32,7 @@ translations of it.*
 | `index.html`, `en/index.html` | 紹介ページ。レイアウトは `_layouts/landing.html` |
 | `privacy/*.md`, `terms/*.md` | 法務文書。レイアウトは `_layouts/document.html` |
 | `app-ads.txt` | AdMob のパブリッシャーの宣言（veiler と同じ 1 行） |
+| `_config.yml` の `google_site_verification` | Google Search Console の所有権の確認。紹介ページの `<head>` に meta タグで出す。確認が済んだ後も消さない（消すと確認が外れる） |
 | `assets/icon.png` | アイコン（`design/icon/AppIcon.icon` から ictool で書き出し） |
 | `assets/shots/` | 画面写真。`ja/`・`en/` は言語で変わる画面、直下は言語に依らない手渡し画面。明るい・暗いの両方を置き、テーマに合わせて片方を出す |
 | `_includes/appstore-badge.html` | App Store のバッジとリンク（2026-09-28 に公開したので「近日公開」から差し替えた）。バッジは Apple の公式のもの（`assets/appstore-badge*.svg`、veiler-lp と同じ） |

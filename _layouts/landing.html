@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }} — {{ page.tagline }}</title>
 <meta name="description" content="{{ page.description }}">
+{%- if site.google_site_verification %}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{%- endif %}
 <link rel="icon" href="{{ '/assets/icon.png' | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/assets/icon.png' | relative_url }}">
 <meta property="og:title" content="{{ page.title }} — {{ page.tagline }}">
